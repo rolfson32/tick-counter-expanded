@@ -1,5 +1,8 @@
 # Tick Counter
-Counts combat activity for nearby players
+Counts combat activity for nearby players.
+
+This is a fork of the original tick-counter by winterdaze:
+https://github.com/winterdaze/tick-counter
 
 ## Features
 * Toggle for resetting when entering a new instance, such as CoX or ToB
