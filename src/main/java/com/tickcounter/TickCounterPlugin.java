@@ -88,8 +88,11 @@ public class TickCounterPlugin extends Plugin
 				delta = 3;
 				break;
 			case 426: // bow shoot
+				int[] bofaIds = (Arrays.asList(new int[] { 25865, 27187, 25867, 25869, 25884, 25886, 25888, 25890, 25892, 25894, 25896, 25862 });
 				if (weapon == 20997) // twisted bow
 					delta = 5;
+				else if (bofaIds.contains(weapon))
+					delta = 4;
 				else // shortbow
 					delta = 3;
 				break;
